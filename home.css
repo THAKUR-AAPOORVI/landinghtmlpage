@@ -145,7 +145,7 @@
   margin-left: 200px;
 }
 .text-center {
-  margin-right: 100px;
+  /* margin-right: 100px; */
   margin-top: 50px;
 }
 
@@ -876,5 +876,12 @@ ul {
   /* Your styles for this screen size */
   .navbar-brand img {
     padding-left: 0px;
+  }
+  .counter {
+    background-color: #000000;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    /* margin-top: 50px; */
   }
 }
