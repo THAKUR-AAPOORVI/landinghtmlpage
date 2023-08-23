@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
 }
+.card:hover {
+  background-color: red;
+  color: white;
+}
 .colorbg {
   /* background: rgb(107,96,96);
   background: linear-gradient(90deg, rgba(107,96,96,1) 10%, rgba(231,84,84,1) 45%, rgba(255,0,0,1) 100%, rgba(255,249,249,1) 100%); */
@@ -24,7 +28,7 @@
 }
 
 .nav-item {
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid #ff0000;
   border-radius: 5px;
   margin-right: 10px;
   width: 82px;
@@ -33,10 +37,22 @@
 .signup {
   width: 83px;
   height: 42px;
-  border-color: rgb(10, 10, 10);
+  background-color: #ff0000;
+  color: white;
+  border-color: rgb(255, 255, 255);
 }
 .signup:hover {
-  border-color: rgb(15, 15, 15);
+  background-color: #ff0000;
+  border-color: rgb(230, 4, 4);
+  color: white;
+}
+
+.mebtn {
+  background-color: #ff0000;
+}
+.mebtn:hover {
+  background-color: #ff0000;
+  color: white;
 }
 .btnlast {
   margin-inline-end: 5%;
@@ -51,9 +67,11 @@
 .menu {
   display: flex;
   justify-content: end;
-
+  border-color: #ff0000;
   margin-left: 80%;
+  color: white;
 }
+
 /* Adjust layout on smaller screens */
 @media (max-width: 991px) {
   .btnlast {
@@ -377,37 +395,7 @@ ul {
   position: relative;
   padding: 85px 0px 80px 0px;
 }
-.footer-content:before {
-  position: absolute;
-  content: "";
-  /* background: url(https://i.ibb.co/jyRLrBZ/world-map.png); */
-  width: 744px;
-  height: 365px;
-  top: 50px;
-  right: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation-name: float-bob;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  -webkit-animation-name: float-bob;
-  -webkit-animation-duration: 30s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-name: float-bob;
-  -moz-animation-duration: 30s;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: linear;
-  -ms-animation-name: float-bob;
-  -ms-animation-duration: 30s;
-  -ms-animation-iteration-count: infinite;
-  -ms-animation-timing-function: linear;
-  -o-animation-name: float-bob;
-  -o-animation-duration: 30s;
-  -o-animation-iteration-count: infinite;
-  -o-animation-timing-function: linear;
-}
+
 .footer-content .logo-widget {
   position: relative;
   margin-top: -5px;
@@ -497,7 +485,7 @@ ul {
 }
 .footer-bottom .copyright a:hover,
 .footer-bottom .footer-nav li a:hover {
-  color: #ff5e14;
+  color: #ff0000;
 }
 .footer-bottom .footer-nav {
   position: relative;
@@ -633,7 +621,7 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: #ff5e14;
+  color: #ff0000;
 }
 .footer-widget ul li a {
   color: #878787;
@@ -673,14 +661,14 @@ ul {
   color: #878787;
 }
 .copyright-text p a {
-  color: #ff5e14;
+  color: #ff0000;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: #ff5e14;
+  color: #ff0000;
 }
 .footer-menu li a {
   font-size: 14px;
